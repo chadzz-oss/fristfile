@@ -1,2 +1,30 @@
 THIS IS FWAD CLASS ON 23/9/26
 THIS IS ABOUT FOLDER AND ALSO GITHUB
+
+
+Direction= already did the terminal thingy: so we are re-doing it- 
+
+Purpose= redirects the VS code to GITHUB section
+
+
+PS D:\FWAD> git init                     
+Reinitialized existing Git repository in D:/FWAD/.git/
+PS D:\FWAD> git add .
+PS D:\FWAD> git commit -m "first commit"
+On branch main
+nothing to commit, working tree clean
+PS D:\FWAD> git add .
+PS D:\FWAD> git remote add origin https://github.com/chadzz-oss/fristfile.git
+error: remote origin already exists.
+PS D:\FWAD> git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 41.74 KiB | 20.87 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/chadzz-oss/fristfile.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS D:\FWAD> 
